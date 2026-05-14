@@ -1,7 +1,7 @@
 from pymodbus.client import ModbusTcpClient
 from pymodbus.exceptions import ModbusException, ModbusIOException, ConnectionException
 import time
-import mutation
+import dynamic_byte_mutation
 import round_mutation
 
 
